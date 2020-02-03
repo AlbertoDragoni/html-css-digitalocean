@@ -15,3 +15,33 @@ header {
 .navbar-brand {
     padding: 0;
 }
+.navbar-right .btn-default {
+    margin-top: 8px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 20px;
+    color: #0049ff;
+    border-color: #0049ff;
+}
+.navbar-right .btn-default:hover {
+    background-color: #0049ff;
+    color: white;
+}
+#link-nav {
+    color: #031b68;
+}
+#link-nav:hover {
+    color: #0049ff;
+}
+.glyphicon-menu-down {
+    margin-left: 5px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #0049ff;
+}
+@media all and (max-width: 768px) {
+    .container-fluid > .navbar-header {
+        background-color: #0049ff;
+    }
+}
