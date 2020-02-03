@@ -56,6 +56,37 @@ h1 {
     color: #c5daff;
 }
 .formdeploy {
+    padding-top: 40px;
     background-color: white;
     border-radius: 8px;
+}
+.form-horizontal h2 {
+    color: #031b4e;
+}
+.form-control {
+    font-size: 18px;
+    margin-left: 20px;
+    width: 90%;
+}
+.btn-create button {
+    background-color: #0049ff;
+    color: white;
+    width: 80%;
+    border-radius: 6px;
+}
+.btn-create .btn-default:hover {
+    background-color: #031b4e;
+    color: white;
+}
+.ms--signup::before, .ms--signup::after {
+    content: '';
+    display: inline-block;
+    width: 90px;
+    height: 1px;
+    background-color: #5b6987;
+    position: relative; bottom: 4px;
+}
+.ms--signup span {
+    color: #5b6987;
+    font-size: 15px;
 }
