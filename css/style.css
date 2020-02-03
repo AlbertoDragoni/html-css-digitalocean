@@ -6,6 +6,9 @@
     background-color: #f3f5f9;
     color: #031b4e;
 }
+.ms--blue-bg {
+    background-color: #0248ff;
+}
 header {
     height: 120px;
 }
@@ -44,4 +47,15 @@ header {
     .container-fluid > .navbar-header {
         background-color: #0049ff;
     }
+}
+h1 {
+    color: white;
+}
+.jumbotext p {
+    font-size: 24px;
+    color: #c5daff;
+}
+.formdeploy {
+    background-color: white;
+    border-radius: 8px;
 }
