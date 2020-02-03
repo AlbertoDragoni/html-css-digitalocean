@@ -136,3 +136,58 @@
 .bottom-writing a {
     font-size: 10px;
 }
+/* quarta row */
+.ms--middletext h2 {
+    color: #031b4e;
+}
+.ms--middletext p {
+    font-size: 16px;
+    color: #8e5f83;
+}
+.menudeploy {
+    margin-top: 40px;
+}
+.scala {
+    color: #aa8da6;
+    line-height: 38px;
+    margin-left: 15px;
+    border-left: 1px solid blue;
+}
+.scala p {
+    margin-left: 6px;
+    font-size: 14px;
+}
+.scala:hover {
+    color: blue;
+}
+.logofake .glyphicon {
+    font-size: 24px;
+    color: #0049ff;
+}
+.titlefake h5 {
+    color: #0a1b4e;
+}
+.kubernetes {
+    margin-top: 30px;
+}
+.kubernetes p {
+    color: #aa8da6;
+}
+.flexcom {
+    margin-top: 30px;
+}
+.flexcom p {
+    color: #aa8da6;
+}
+.marketplace {
+    margin-top: 30px;
+}
+.marketplace p {
+    color: #aa8da6;
+}
+.global {
+    margin-top: 30px;
+}
+.global p {
+    color: #aa8da6;
+}
