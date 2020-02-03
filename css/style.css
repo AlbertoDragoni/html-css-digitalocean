@@ -6,3 +6,12 @@
     background-color: #f3f5f9;
     color: #031b4e;
 }
+header {
+    height: 120px;
+}
+#logo-digital {
+    height: 100%;
+}
+.navbar-brand {
+    padding: 0;
+}
