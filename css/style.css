@@ -9,9 +9,6 @@
 .ms--blue-bg {
     background-color: #0049ff;
 }
-header {
-    height: 120px;
-}
 #logo-digital {
     height: 100%;
 }
@@ -48,6 +45,7 @@ header {
         background-color: #0049ff;
     }
 }
+/* seconda row */
 .jumbotron {
     background-color: #0049ff;
 }
@@ -120,4 +118,21 @@ header {
     .jumbotron {
         background-image:
     }
+}
+/* terza row */
+.business {
+    background-color: #f3f5f9;
+}
+.top-writing {
+    margin-top: 40px;
+}
+.top-writing p {
+    font-size: 13px;
+    color: #939eb5;
+}
+.imglink {
+    margin-bottom: 20px;
+}
+.bottom-writing a {
+    font-size: 10px;
 }
