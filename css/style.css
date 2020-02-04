@@ -6,7 +6,11 @@
     background-color: #f3f5f9;
     color: #031b4e;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .navbar {
+    padding-top: 10px;
     height: 70px;
 }
 #logo-digital {
@@ -20,7 +24,6 @@
     margin-right: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    line-height: 20px;
     color: #0049ff;
     border-color: #0049ff;
 }
@@ -40,6 +43,12 @@
 .navbar-default .navbar-toggle {
     border-color: #0049ff;
 }
+@media all and (max-width: 768px) {
+    .navbar {
+        background-color: #0049ff;
+    }
+}
+
 /* seconda row */
 .jumbotron {
     margin-top: 80px;
@@ -110,12 +119,7 @@
 .terms {
     margin-top: 40px;
 }
-/*
-@media all and (min-width: 768px) {
-    .jumbotron {
-        background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
-    }
-}  */
+
 /* terza row */
 .business {
     background-color: #f3f5f9;
@@ -127,11 +131,15 @@
     font-size: 13px;
     color: #939eb5;
 }
-.imglink {
-    margin-bottom: 20px;
+.imglink img {
+    height: 100px;
+    object-fit: contain;
+}
+.bottom-writing {
+    margin-bottom: 25px;
 }
 .bottom-writing a {
-    font-size: 10px;
+    font-size: 14px;
 }
 /* quarta row */
 .ms--middletext h2 {
@@ -221,4 +229,28 @@
 }
 .ms--cards {
     margin-top: 25px;
+}
+.ms--earth {
+    margin-top: 40px;
+    color: white;
+    background-color: #0a1b4e;
+    background-size: cover;
+}
+.ms--stripe {
+    line-height: 20px;
+    background-color: #0a1b4e;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+.ms--stripe-sx, .ms--stripe-cnt, .ms--stripe-link {
+    display: inline-block;
+}
+.ms--stripe-cnt {
+    color: #aa8da6;
+    font-size: 12px;
+    margin-left: 50px;
+}
+.ms--stripe-link {
+    font-size: 12px;
+    float: right;
 }
