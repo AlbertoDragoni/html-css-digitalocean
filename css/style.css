@@ -255,6 +255,9 @@ body {
     font-size: 12px;
     float: right;
 }
+.ms--second-section {
+    margin-bottom: 50px;
+}
 @media all and (max-width: 992px) {
     .ms--second-section {
         margin-top: 40px;
@@ -262,4 +265,7 @@ body {
 }
 .ms--bg-compose {
     background-color: #0a1b4e;
+}
+#change-margin {
+    border-bottom: #0a1b4e;
 }
