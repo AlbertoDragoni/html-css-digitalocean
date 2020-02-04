@@ -43,6 +43,10 @@ body {
 .navbar-default .navbar-toggle {
     border-color: #0049ff;
 }
+.nav > li > a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 @media all and (max-width: 768px) {
     .navbar {
         background-color: #0049ff;
@@ -51,7 +55,7 @@ body {
 
 /* seconda row */
 .jumbotron {
-    margin-top: 80px;
+    margin-top: 70px;
     background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
 }
 .jumboform {
@@ -268,4 +272,78 @@ body {
 }
 #change-margin {
     border-bottom: #0a1b4e;
+}
+.ms--last-title  {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.ms--last-title h2 {
+    color: white;
+}
+.pallini {
+    height: 60px;
+}
+.developers-img i {
+    color: #0a1b4e;
+    font-size: 10px;
+}
+/* ottava row */
+.smartrow {
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.ms--getstarted {
+    margin-top: 40px;
+    color: white;
+}
+.ms--gestarted-btn {
+    margin-top: 30px;
+}
+.ms--gestarted-btn .btn-default {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 13px;
+    background-color: white;
+    color: #0049ff;
+}
+.ms--gestarted-btn .btn-default:hover {
+    background-color: #aa8da6;
+}
+/* nona row */
+.lastsec {
+
+    background-color: #0a1b4e;
+}
+.ms--last-part-sx {
+    margin-top: 50px;
+}
+.ms--last-part-sx p {
+    font-size: 15px;
+    color: white;
+}
+.ms--last-part-sx a {
+    text-decoration: none;
+    color: #4e5fa7;
+    font-size: 12px;
+}
+.ms--last-part-dx p {
+    font-size: 15px;
+    color: white;
+}
+.ms--last-part-dx a {
+    text-decoration: none;
+    color: #4e5fa7;
+    font-size: 12px;
+}
+.ms--last-part-lst p {
+    font-size: 15px;
+    color: white;
+}
+.ms--last-part-lst a {
+    text-decoration: none;
+    color: #4e5fa7;
+    font-size: 12px;
 }
