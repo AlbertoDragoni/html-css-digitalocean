@@ -6,8 +6,8 @@
     background-color: #f3f5f9;
     color: #031b4e;
 }
-.ms--blue-bg {
-    background-color: #0049ff;
+.navbar {
+    height: 70px;
 }
 #logo-digital {
     height: 100%;
@@ -40,14 +40,10 @@
 .navbar-default .navbar-toggle {
     border-color: #0049ff;
 }
-@media all and (max-width: 768px) {
-    .container-fluid > .navbar-header {
-        background-color: #0049ff;
-    }
-}
 /* seconda row */
 .jumbotron {
-    background-color: #0049ff;
+    margin-top: 80px;
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
 }
 .jumboform {
     max-width: 80%;
@@ -114,11 +110,12 @@
 .terms {
     margin-top: 40px;
 }
+/*
 @media all and (min-width: 768px) {
     .jumbotron {
-        background-image:
+        background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
     }
-}
+}  */
 /* terza row */
 .business {
     background-color: #f3f5f9;
