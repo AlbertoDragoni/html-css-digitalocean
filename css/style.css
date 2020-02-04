@@ -317,8 +317,8 @@ body {
 
     background-color: #0a1b4e;
 }
-.ms--last-part-sx {
-    margin-top: 50px;
+.ms--last-part-sx, .ms--last-part-dx, .ms--last-part-lst {
+    margin-top: 40px;
 }
 .ms--last-part-sx p {
     font-size: 15px;
