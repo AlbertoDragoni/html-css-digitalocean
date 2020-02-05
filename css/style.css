@@ -13,11 +13,32 @@ body {
     padding-top: 10px;
     height: 70px;
 }
-#logo-digital {
+#logo-digital, #logo-digital2 {
     height: 100%;
+    margin-right: 15px;
 }
 .navbar-brand {
     padding: 0;
+}
+.navbar-brand img {
+    max-width: 100px;
+    object-fit: contain;
+}
+@media all and (max-width: 768px) {
+    #logo-digital {
+        display: block;
+    }
+    #logo-digital2 {
+        display: none;
+    }
+}
+@media all and (min-width: 769px) {
+    #logo-digital {
+        display: none;
+    }
+    #logo-digital2 {
+        display: block;
+    }
 }
 .navbar-right .btn-default {
     margin-top: 8px;
@@ -57,6 +78,7 @@ body {
 .jumbotron {
     margin-top: 70px;
     background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    background-size: cover;
 }
 .jumboform {
     max-width: 80%;
@@ -78,7 +100,7 @@ body {
 }
 .form-control {
     font-size: 18px;
-    margin-left: 20px;
+    margin-left: 15px;
     width: 90%;
 }
 .btn-create button {
@@ -87,7 +109,7 @@ body {
     width: 80%;
     border-radius: 6px;
 }
-.btn-create .btn-default:hover {
+.btn-create .btn-deafault:hover {
     background-color: #031b4e;
     color: white;
 }
